@@ -14,4 +14,4 @@ const images = [
 ];
 const ul = document.querySelector('ul');
 const imagesNew = new DocumentFragment();
-for(let image of images) document.querySelector('.gallery').insertAdjacentHTML('beforeEnd', `<li><img src="${image.url}" alt="${image.alt}"></li>`);
+for(let image of images) document.querySelector('.gallery').insertAdjacentHTML('beforeEnd', `<li><img src="${image.url}" alt="${image.alt}"  width = "1260" height = "750"></li>`);
